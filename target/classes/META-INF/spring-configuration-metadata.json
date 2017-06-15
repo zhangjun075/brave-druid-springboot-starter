@@ -1,0 +1,100 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidDataSourceAutoConfigure",
+      "name": "spring.datasource.druid",
+      "sourceMethod": "dataSource(org.springframework.core.env.Environment)",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties",
+      "name": "spring.datasource.druid",
+      "type": "com.druid.brave.autoconfigure.DruidStatProperties"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties",
+      "name": "spring.datasource.druid.stat-filter",
+      "sourceMethod": "getStatFilter()",
+      "type": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties",
+      "name": "spring.datasource.druid.stat-view-servlet",
+      "sourceMethod": "getStatViewServlet()",
+      "type": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties",
+      "name": "spring.datasource.druid.aop-patterns",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.exclusions",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.principal-cookie-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.principal-session-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.profile-enable",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.session-stat-enable",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.session-stat-max-count",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatFilter",
+      "name": "spring.datasource.druid.stat-filter.url-pattern",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet",
+      "name": "spring.datasource.druid.stat-view-servlet.allow",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet",
+      "name": "spring.datasource.druid.stat-view-servlet.deny",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet",
+      "name": "spring.datasource.druid.stat-view-servlet.login-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet",
+      "name": "spring.datasource.druid.stat-view-servlet.login-username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet",
+      "name": "spring.datasource.druid.stat-view-servlet.reset-enable",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.druid.brave.autoconfigure.DruidStatProperties$StatViewServlet",
+      "name": "spring.datasource.druid.stat-view-servlet.url-pattern",
+      "type": "java.lang.String"
+    }
+  ]
+}
